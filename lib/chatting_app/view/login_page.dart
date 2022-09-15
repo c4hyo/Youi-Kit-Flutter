@@ -1,9 +1,7 @@
 // ignore_for_file: use_key_in_widget_constructors, prefer_const_constructors, depend_on_referenced_packages
 
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:yo_style/colors.dart';
-
 import 'package:iconify_flutter/iconify_flutter.dart';
 import 'package:colorful_iconify_flutter/icons/logos.dart';
 
@@ -231,10 +229,7 @@ class LoginPage extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.end,
                   children: [
                     InkWell(
-                      onTap: () {
-                        Get.snackbar(
-                            "Forgot Password", "You press Forgot Password");
-                      },
+                      onTap: () {},
                       child: Container(
                         padding: EdgeInsets.fromLTRB(0, 16, 0, 16),
                         child: Text(
@@ -253,9 +248,7 @@ class LoginPage extends StatelessWidget {
                   height: 8,
                 ),
                 InkWell(
-                  onTap: () {
-                    Get.snackbar("Login Button", "You press login button");
-                  },
+                  onTap: () {},
                   child: Container(
                     width: double.infinity,
                     padding: EdgeInsets.fromLTRB(0, 18, 0, 18),
@@ -297,10 +290,7 @@ class LoginPage extends StatelessWidget {
                       ),
                     ),
                     InkWell(
-                      onTap: () {
-                        Get.snackbar(
-                            "Register Button", "You press register button");
-                      },
+                      onTap: () {},
                       child: Container(
                         padding: EdgeInsets.fromLTRB(0, 16, 0, 16),
                         child: Text(
