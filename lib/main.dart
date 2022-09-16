@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import 'chatting_app/view/login_page.dart';
+import 'chatting_app/view/register_page.dart';
+// import 'chatting_app/view/login_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         textTheme: GoogleFonts.poppinsTextTheme(),
       ),
-      home: LoginPage(),
+      home: RegisterPage(),
     );
   }
 }
