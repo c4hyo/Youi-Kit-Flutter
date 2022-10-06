@@ -66,7 +66,7 @@ class ChatRoomPage extends StatelessWidget {
             Expanded(
               child: Container(
                 padding: const EdgeInsets.all(16),
-                color: Colors.green.shade100.withOpacity(0.25),
+                color: YoColors.success.shade100.withOpacity(.25),
                 child: ListView.builder(
                   shrinkWrap: true,
                   physics: const ClampingScrollPhysics(),
