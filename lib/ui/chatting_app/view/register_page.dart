@@ -1,6 +1,7 @@
 // ignore_for_file: use_key_in_widget_constructors, prefer_const_constructors, depend_on_referenced_packages
 
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:yo_style/yo_style.dart';
 import 'package:iconify_flutter/iconify_flutter.dart';
 import 'package:iconify_flutter/icons/ant_design.dart';
@@ -376,7 +377,7 @@ class ChatRegisterPage extends StatelessWidget {
                       ),
                     ),
                     InkWell(
-                      onTap: () {},
+                      onTap: () => Get.back(),
                       child: Container(
                         padding: EdgeInsets.fromLTRB(0, 16, 0, 16),
                         child: Text(

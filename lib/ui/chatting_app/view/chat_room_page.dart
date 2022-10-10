@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:yo_style/colors.dart';
 import 'package:yo_style/style/text_style.dart';
 import 'package:yo_style/text.dart';
@@ -36,7 +37,7 @@ class ChatRoomPage extends StatelessWidget {
                   Row(
                     children: [
                       IconButton(
-                        onPressed: () {},
+                        onPressed: () => Get.back(),
                         icon: const Icon(
                           Icons.arrow_back_ios,
                         ),

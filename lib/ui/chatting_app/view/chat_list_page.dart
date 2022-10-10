@@ -33,10 +33,14 @@ class ChatListPage extends StatelessWidget {
                     children: [
                       InkWell(
                         onTap: () => Get.toNamed(Routes.CHAT_PROFILE),
-                        child: CircleAvatar(
-                          radius: 26,
-                          backgroundColor: YoColors.neutral.shade50,
-                          backgroundImage: const AssetImage("assets/logo.png"),
+                        child: Hero(
+                          tag: 1,
+                          child: CircleAvatar(
+                            radius: 26,
+                            backgroundColor: YoColors.neutral.shade50,
+                            backgroundImage:
+                                const AssetImage("assets/logo.png"),
+                          ),
                         ),
                       ),
                       Text(
